@@ -1,5 +1,4 @@
 # Oscilloscope
-A oscilloscope made with Arduino that measure from -5V to 5V. it is a job in progress.
+The oscilloscope, made with Arduino, measures from -5V to 5V. It is a work in progress.
 
-Basically this project uses the TIMER0 from atmega328 to sample the signal, and when the samples are complete draw it in the screen.
-The algorithm used to draw the signal on the screen is the catMullRom, a type of spline that contains all the points passed by argument
+Basically, this project uses TIMER0 from the ATmega328 to sample the signal. When the samples are complete, it draws them on the screen. The algorithm used to draw the signal on the screen is Catmull-Rom, a type of spline that contains all the points passed as arguments.

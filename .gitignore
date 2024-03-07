@@ -9,5 +9,5 @@ Dados.ods
 anotacoes.txt
 serialAnalise.py
 ./Scripts
-.vscode*
-./test.py
+.vscode
+test.py
